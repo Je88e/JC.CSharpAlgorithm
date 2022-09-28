@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LinkedList">
+      <HintPath>..\..\Jesse.CSharpDataStructure\LinkedList\bin\Debug\net6.0\LinkedList.dll</HintPath>
+    </Reference>
+    <Reference Include="Queue">
+      <HintPath>..\..\Jesse.CSharpDataStructure\Queue\bin\Debug\net6.0\Queue.dll</HintPath>
+    </Reference>
+    <Reference Include="Stack">
+      <HintPath>..\..\Jesse.CSharpDataStructure\Stack\bin\Debug\net6.0\Stack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
